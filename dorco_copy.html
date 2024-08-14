@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8273ee847b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="dorco_copy.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
+        integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="dorco_copy.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <header>
+        <div class="header_wrap">
+            <h1 class="logo"><a href="dorco.html"></a></h1>
+            <ul class="gnb">
+                <li class="gnb_box">
+                    <a href="#">회사소개</a>
+                    <div class="sub clearFix">
+                        <ul class="sub_left">
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">히스토리</a></li>
+                            <li><a href="#">조직도</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                        </ul>
+                        <ul class="sub_right">
+                            <li><a href="#">미션&비전</a></li>
+                            <li><a href="#">CI&BI소개</a></li>
+                            <li><a href="#">인증서</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb_box">
+                    <a href="#">비즈니스</a>
+                    <div class="sub">
+                        <ul class="sub_left">
+                            <li><a href="#">사업영역</a></li>
+                        </ul>
+                        <ul class="sub_right">
+                            <li><a href="#">해외법인</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb_box">
+                    <a href="#">제품소개</a>
+                    <div class="sub">
+                        <ul class="sub_left">
+                            <li><a href="#">면도기/날</a></li>
+                            <li><a href="#">키친웨어</a></li>
+                            <li><a href="#">키친툴</a></li>
+                        </ul>
+                        <ul class="sub_right">
+                            <li><a href="#">면도보조용품</a></li>
+                            <li><a href="#">쿸웨어</a></li>
+                            <li><a href="#">문구용품</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb_box">
+                    <a href="#">홍보센터</a>
+                    <div class="sub">
+                        <ul class="sub_left">
+                            <li><a href="#">보도자료</a></li>
+                            <li><a href="#">미디어</a></li>
+                            <li><a href="#">신제품</a></li>
+                        </ul>
+                        <ul class="sub_right">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">프로모션</a></li>
+                            <li><a href="#">수상내역</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb_box">
+                    <a href="#">광고</a>
+                    <div class="sub">
+                        <ul class="sub_left">
+                            <li><a href="#">홍보영상</a></li>
+                            <li><a href="#">지면/옥외광고</a></li>
+                        </ul>
+                        <ul class="sub_right">
+                            <li><a href="#">광고영상</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb_box">
+                    <a href="#">고객센터</a>
+                    <div class="sub">
+                        <ul class="sub_left">
+                            <li><a href="#">고객 FAQ</a></li>
+                            <li><a href="#">구매/제휴문의</a></li>
+                            <li><a href="#">제품가이드</a></li>
+                        </ul>
+                        <ul class="sub_right">
+                            <li><a href="#">고객의 소리</a></li>
+                            <li><a href="#">구매가이드</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">채용정보<span class="material-symbols-outlined opn">
+                            open_in_new
+                        </span></a>
+                </li>
+                <li>
+                    <a href="#">지속가능경영<span class="material-symbols-outlined opn">
+                            open_in_new
+                        </span></a>
+                </li>
+                <li>
+                    <a href="#">윤리경영<span class="material-symbols-outlined opn">
+                            open_in_new
+                        </span></a>
+                </li>
+                <li>
+                    <a href="#">카탈로그</a>
+                </li>
+            </ul>
+            <div class="language">
+                <p class="not_js">
+                    <span class="material-symbols-outlined">
+                        language
+                    </span>
+                    Korean
+                </p>
+                <ul class="language_box">
+                    <li>
+                        <a href="dorco.html">
+                            <p>
+                                <img src="images/ko.svg" alt="한국국기" />Korean
+                            </p>
+                        </a>
+                    </li>
+                    <!-- 백그이 체크표시 넣기 백그컬 넣기 before 넣기-->
+                    <li>
+                        <a href="">
+                            <p>
+                                <img src="images/en.svg" alt="미국국기" />English
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="inquiries"><a href="#">문의하기</a></div>
+        </div>
+    </header>
+    <section>
+        <div id="top_btn">TOP</div>
+        <div class="main1">
+            <div class="main_left">
+                <ul class="carousel_left">
+                    <li class="bg1">
+                        <!-- <img
+                                src="images/main_bn (1).jpg"
+                                alt="프리미엄커터"
+                            /> -->
+                    </li>
+                    <li class="bg2">
+                        <!-- <img src="images/main_bn (2).jpg" alt="포레스타" /> -->
+                    </li>
+                    <li class="bg3">
+                        <!-- <img src="images/main_bn (3).jpg" alt="식도" /></li> -->
+                    </li>
+
+                    <li class="bg4">
+                        <!-- <img src="images/main_bn (4).jpg" alt="페이스" /> -->
+                    </li>
+                </ul>
+            </div>
+            <div class="main_right">
+                <ul class="carousel_right">
+                    <li class="txt_box123">
+                        <div class="f_floor_wrap">
+                            <div class="f_floor">
+                                <h3>DORCO PROCUT Premium Cutter</h3>
+                                <h1>도루코 프로컷 프리미엄 커터</h1>
+                            </div>
+                        </div>
+                        <div class="s_floor_wrap">
+                            <div class="s_floor">
+                                <p>축적된 금속 가공 기술을 바탕으로 어떠한 작업
+                                    환경에도<br />
+                                    최상의 절삭 퍼포먼스를 제공하는 전문가용
+                                    프리미엄 라인입니다.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="txt_box123">
+                        <div class="f_floor_wrap">
+                            <div class="f_floor">
+                                <h3>
+                                    DORCO PACE 3D MotionDORCO mychef Foresta
+                                    Series
+                                </h3>
+                                <h1>도루코 마이셰프 포레스타 시리즈</h1>
+                            </div>
+                        </div>
+                        <div class="s_floor_wrap">
+                            <p class="s_floor">
+                                강력한 이노블 코팅, 적은양의 오일 사용을
+                                도와조는 3D 리프패턴,<br />
+                                4대 유해물질 검출 테스트를 통과한 건강한
+                                요리를 지향하는 포레스타 시리즈입니다.
+                            </p>
+                        </div>
+
+                    </li>
+                    <li class="txt_box123">
+                        <div class="f_floor_wrap">
+                            <div class="f_floor">
+                                <h3>DORCO mychef Interior Kitchen Knife</h3>
+                                <h1>도루코 마이셰프 인테리어 식도</h1>
+                            </div>
+                        </div>
+                        <div class="s_floor_wrap">
+                            <p class="s_floor">
+                                프랑스산 베벨강 소재로 구현한 절삭력과<br />
+                                차별화된 디자인을 적용한 인테리어
+                                시리즈로<br />
+                                도루코 마이셰프만의 요리하는 즐거움을
+                                느껴보세요.
+                            </p>
+                        </div>
+
+                    </li>
+                    <li class="txt_box123">
+                        <div class="f_floor_wrap">
+                            <div class="f_floor">
+                                <h3>DORCO PACE 3D Motion</h3>
+                                <h1>도루코 페이스 3D 모션</h1>
+                            </div>
+                        </div>
+                        <div class="s_floor_wrap">
+                            <p class="s_floor">
+                                마그네틱 헤드 기술이 탑재된 3D Motion은<br />
+                                피부 곡선에 따라 움직이는 3D 입체 면도로<br />
+                                프리미엄 쉐이빙 경험을 제공합니다.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="prev_next_box">
+                <div class="prev"><i class="fa-solid fa-arrow-left"></i><span>PREV</span></div>
+                <div class="next"><span>NEXT</span><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+        </div>
+        <div class="start">
+            <div class="start_txt_box">
+                <div class="h1_box">
+                    <h1>Make it a Good Start.</h1>
+                    <h1>즐거운 하루의 시작!</h1>
+                </div>
+                <p class="p_box">
+                    도루코리빙은 생활용품 전문기업으로서 고객 감동 실현과
+                    브랜드 리더십을 통해 고객에게 기쁨을 주는 기업으로
+                    다가가고자 합니다. 제품과 서비스에 대한 철저한
+                    품질관리를 통해 고객의 기대를 감동으로 변화시키고,
+                    나아가 제품을 구매하는 모든 고객분들의 생활 속 즐거움을
+                    전할 수 있도록 노력하고 있습니다. 즐거운 하루의 시작을
+                    위한 도루코리빙의 다양한 제품을 만나보세요. 우리는
+                    고객들의 성공과 만족을 위해 최선을 다하며, 지속적인
+                    혁신을 통해 더 나은 미래를 창조합니다.
+                </p>
+            </div>
+            <ul class="scale_box f_floor">
+                <li>
+                    <div class="real_content">
+                        <div class="content">
+                            <p class="eng_p">Shaving Razor & Blade</p>
+                            <div class="mousetoggle_box">
+                                <p class="kr_p"><a href="">면도기&날</a></p>
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=2&depth3=3&depth4=0">
+                                        <span class="hover1">For Men</span><span class="hover2">남성용면도기</span><i
+                                            class="fa-solid fa-greater-than"></i>
+                                    </a>
+
+                                </p>
+                                <!-- after >넣기 -->
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=2&depth3=4&depth4=0">
+                                        <span class="hover1">For Women</span><span class="hover2">여성용면도기</span><i
+                                            class="fa-solid fa-greater-than"></i>
+                                    </a>
+                                </p>
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=2&depth3=6&depth4=0">
+                                        <span class="hover1">Accessories</span><span class="hover2">면도 엑세서리</span><i
+                                            class="fa-solid fa-greater-than"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="real_content">
+                        <div class="content">
+                            <p class="eng_p">Skincare</p>
+                            <div class="mousetoggle_box">
+                                <p class="kr_p">면도보조용품</p>
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=7&depth3=8&depth4=0">
+                                        <span class="hover1">Before-Shave</span><span class="hover2">비포 쉐이브</span><i
+                                            class="fa-solid fa-greater-than"></i>
+                                    </a>
+                                </p>
+                                <!-- after >넣기 -->
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=7&depth3=9&depth4=0">
+                                        <span class="hover1">After-Shave</span><span class="hover2">애프터 쉐이브</span><i
+                                            class="fa-solid fa-greater-than"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class=".content"></li>
+                <li class=".content"></li>
+            </ul>
+            <ul class="scale_box s_floor">
+                <li>
+                    <div class="real_content">
+                        <div class="content">
+                            <p class="eng_p">kitchenware</p>
+                            <div class="mousetoggle_box">
+                                <p class="kr_p">키친웨어</p>
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=2&depth3=3&depth4=0">
+                                        <span class="hover1">Kitchen-Knife</span><span class="hover2">주방용 칼</span><i
+                                            class="fa-solid fa-greater-than"></i>
+                                    </a>
+                                </p>
+                                <!-- after >넣기 -->
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=2&depth3=4&depth4=0">
+                                        <span class="hover1">Kitchen-Scissor</span><span class="hover2">주방용 가위</span><i
+                                            class="fa-solid fa-greater-than"></i>
+                                    </a>
+                                </p>
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=2&depth3=6&depth4=0">
+                                        <span class="hover1">Accessories</span><span class="hover2">주방 엑세서리</span><i
+                                            class="fa-solid fa-greater-than"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="real_content">
+                        <div class="content">
+                            <p class="eng_p">Cookware</p>
+                            <div class="mousetoggle_box">
+                                <p class="kr_p">쿡웨어</p>
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=2&depth3=3&depth4=0">
+                                        <span class="hover1">Pan</span><span class="hover2">프라이팬</span><i
+                                            class="fa-solid fa-greater-than"></i>
+                                    </a>
+                                </p>
+                                <!-- after >넣기 -->
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=2&depth3=4&depth4=0">
+                                        <span class="hover1">Pot</span><span class="hover2">냄비</span><i
+                                            class="fa-solid fa-greater-than"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="real_content">
+                        <div class="content">
+                            <p class="eng_p">Kitchen Tool</p>
+                            <div class="mousetoggle_box">
+                                <p class="kr_p">키친툴</p>
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=2&depth3=3&depth4=0">
+                                        <span class="hover1">Peeler</span><span class="hover2">필러</span><i
+                                            class="fa-solid fa-greater-than"></i>
+                                    </a>
+                                </p>
+                                <!-- after >넣기 -->
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=2&depth3=4&depth4=0">
+                                        <span class="hover1">Kitchen Tool</span><span class="hover2">키친 툴</span><i
+                                            class="fa-solid fa-greater-than"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="real_content">
+                        <div class="content">
+                            <p class="eng_p">Stationary</p>
+                            <div class="mousetoggle_box">
+                                <p class="kr_p">문구용품</p>
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=2&depth3=3&depth4=0">
+                                        <span class="hover1">Cutter Handle</span><span class="hover2">커터기</span><i
+                                            class="fa-solid fa-greater-than"></i>
+                                    </a>
+                                </p>
+                                <!-- after >넣기 -->
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=2&depth3=4&depth4=0">
+                                        <span class="hover1">Cutter Blade</span><span class="hover2">커터날</span><i
+                                            class="fa-solid fa-greater-than"></i>
+                                    </a>
+                                </p>
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=2&depth3=6&depth4=0">
+                                        <span class="hover1">Scissors</span><span class="hover2">문구가위</span><i
+                                            class="fa-solid fa-greater-than"></i></a>
+                                </p>
+                                <p>
+                                    <a
+                                        href="http://dorcoliving.nineonelabs.co.kr/pages/board/board.list.php?board_no=82&depth1=1&depth2=2&depth3=6&depth4=0">
+                                        Stationary <span class="hover1">others</span><span class="hover2">문구기타</span><i
+                                            class="fa-solid fa-greater-than"></i></a>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="future">
+            <h1>
+                우리는 고객들의 성광과 만족을 위해 최선을 다하며,<br />
+                지속적인 혁신을 통해 더 나은 미래를 창조합니다.
+            </h1>
+            <ul class="future_box">
+                <li>
+                    <img src="images/recruitment.png" alt="인재채용" />
+                    <h4>인재채용</h4>
+                    <p>
+                        도루코리빙과 미래를 함께 할 인재를 기다리고
+                        있습니다.
+                    </p>
+                    <a href="#" class="arrow_box">
+                        <div class="arrow"></div>
+                    </a>
+                    <!-- backimag or icon -->
+                </li>
+                <li>
+                    <img src="images/customer_service.png" alt="고객의소리" />
+                    <h4>고객의소리</h4>
+                    <p>도루코리빙은 고객님의 의견을 소중히 여깁니다.</p>
+                    <a href="#" class="arrow_box">
+                        <div class="arrow"></div>
+                    </a>
+                </li>
+                <li>
+                    <img src="images/brochure.png" alt="브로슈어" />
+                    <h4>브로슈어</h4>
+                    <p>
+                        고객에게 기쁨을 주는 생활용품 전문기업의 다양한
+                        제품들을 확인해보세요.
+                    </p>
+                    <a href="#" class="arrow_box">
+                        <div class="arrow"></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="site">
+            <h1>관련사이트</h1>
+            <ul class="site_box">
+                <li>
+                    <p class="img_left">
+                        <img src="images/dorco.svg" alt="도루코" />
+                    </p>
+                    <ul class="link_right">
+                        <li>
+                            <a href="#"><img src="images/bag.png" alt="가방" />네이버 공식몰</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="img_left">
+                        <img src="images/pace.svg" alt="도루코페이스" />
+                    </p>
+                    <ul class="link_right">
+                        <li>
+                            <a href="#"><img src="images/youtube.png" alt="유투브" />YOUTUBE</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/facebook.png" alt="페이스북" />FACEBOOK</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="img_left">
+                        <img src="images/mychef.svg" alt="마이셰프" />
+                    </p>
+                    <ul class="link_right">
+                        <li>
+                            <a href="#"><img src="images/youtube.png" alt="유투브" />YOUTUBE</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/instagram.png" alt="인스타그램" />INSTAGRAM</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_f_floor">
+            <div class="footer_box1">
+                <h1 class="footer_logo">
+                    <img src="images/logo_footer.svg" alt="도루코리빙" />
+                </h1>
+                <address>
+                    주소 : 서울특별시 서초구 효령로70길 36-9 (서초동) <br />
+                    Tel : 1533-5239 Fax : 02-2682-3211<br />
+                    E-mail : dorcocs@dorco.co.kr<br />
+                    사업자번호 : 130-86-17811 <br />
+                    대표이사 : 곽희석
+                </address>
+                <ul class="footer_a_box">
+                    <li><a href="#">지속가능경영</a></li>
+                    <li><a href="#">채용정보</a></li>
+                </ul>
+                <div class="site_site">
+                    <p class="site_btn">관련사이트<i class="fa-solid fa-angle-down"></i></p>
+                    <p class="click_site">도루코</p>
+                </div>
+            </div>
+            <ul class="footer_box2">
+                <li>
+                    <p>회사소개</p>
+                    <ul class="sub">
+                        <li><a href="#">인사말</a></li>
+                        <li><a href="#">미션</a></li>
+                        <li><a href="#">히스토리</a></li>
+                        <li><a href="#">CI&BI소개</a></li>
+                        <li><a href="#">조직도</a></li>
+                        <li><a href="#">인증서</a></li>
+                        <li><a href="#">찾아오시는길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>비즈니스</p>
+                    <ul class="sub">
+                        <li><a href="#">사업영역</a></li>
+                        <li><a href="#">해외법인</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>제품소개</p>
+                    <ul class="sub">
+                        <li><a href="#">면도기/날</a></li>
+                        <li><a href="#">면도보조용품</a></li>
+                        <li><a href="#">키친웨어</a></li>
+                        <li><a href="#">쿡웨어</a></li>
+                        <li><a href="#">키친툴</a></li>
+                        <li><a href="#">문구용품</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>홍보센터</p>
+                    <ul class="sub">
+                        <li><a href="#">보도자료</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">미디어</a></li>
+                        <li><a href="#">프로모션</a></li>
+                        <li><a href="#">신제품</a></li>
+                        <li><a href="#">수상내역</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>광고</p>
+                    <ul class="sub">
+                        <li><a href="#">홍보영상</a></li>
+                        <li><a href="#">광고영상</a></li>
+                        <li><a href="#">지면/옥외광고</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>고객센터</p>
+                    <ul class="sub">
+                        <li><a href="#">고객 FAQ</a></li>
+                        <li><a href="#">고객의 소리</a></li>
+                        <li><a href="#">구매/제휴문의</a></li>
+                        <li><a href="#">구매가이드</a></li>
+                        <li><a href="#">제품가이드</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_s_floor">
+            <div class="footer_s_floor_wrap">
+                <div class="sns_box">
+                    <p><a href="#">1111</a></p>
+                    <p><a href="#"></a></p>
+                    <p><a href="#"></a></p>
+                    <p><a href="#"></a></p>
+                </div>
+                <div class="copy_box">
+                    <p><a href="">개인정보처리방침</a></p>
+                    <p>Copyright©2023 Dorcoliving All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

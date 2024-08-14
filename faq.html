@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="faq.js"></script>
+    <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <header>
+        <div class="header_wrap">
+            <h1 class="logo"><a href="dorco.html"></a></h1>
+            <ul class="gnb">
+                <li class="gnb_box">
+                    <a href="#">회사소개</a>
+                    <div class="sub clearFix">
+                        <ul class="sub_left">
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">히스토리</a></li>
+                            <li><a href="#">조직도</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                        </ul>
+                        <ul class="sub_right">
+                            <li><a href="#">미션&비전</a></li>
+                            <li><a href="#">CI&BI소개</a></li>
+                            <li><a href="#">인증서</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb_box">
+                    <a href="#">비즈니스</a>
+                    <div class="sub">
+                        <ul class="sub_left">
+                            <li><a href="#">사업영역</a></li>
+                        </ul>
+                        <ul class="sub_right">
+                            <li><a href="#">해외법인</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb_box">
+                    <a href="#">제품소개</a>
+                    <div class="sub">
+                        <ul class="sub_left">
+                            <li><a href="#">면도기/날</a></li>
+                            <li><a href="#">키친웨어</a></li>
+                            <li><a href="#">키친툴</a></li>
+                        </ul>
+                        <ul class="sub_right">
+                            <li><a href="#">면도보조용품</a></li>
+                            <li><a href="#">쿸웨어</a></li>
+                            <li><a href="#">문구용품</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb_box">
+                    <a href="#">홍보센터</a>
+                    <div class="sub">
+                        <ul class="sub_left">
+                            <li><a href="#">보도자료</a></li>
+                            <li><a href="#">미디어</a></li>
+                            <li><a href="#">신제품</a></li>
+                        </ul>
+                        <ul class="sub_right">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">프로모션</a></li>
+                            <li><a href="#">수상내역</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb_box">
+                    <a href="#">광고</a>
+                    <div class="sub">
+                        <ul class="sub_left">
+                            <li><a href="#">홍보영상</a></li>
+                            <li><a href="#">지면/옥외광고</a></li>
+                        </ul>
+                        <ul class="sub_right">
+                            <li><a href="#">광고영상</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb_box">
+                    <a href="#">고객센터</a>
+                    <div class="sub">
+                        <ul class="sub_left">
+                            <li><a href="#">고객 FAQ</a></li>
+                            <li><a href="#">구매/제휴문의</a></li>
+                            <li><a href="#">제품가이드</a></li>
+                        </ul>
+                        <ul class="sub_right">
+                            <li><a href="#">고객의 소리</a></li>
+                            <li><a href="#">구매가이드</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">채용정보<span class="material-symbols-outlined opn">
+                            open_in_new
+                        </span></a>
+                </li>
+                <li>
+                    <a href="#">지속가능경영<span class="material-symbols-outlined opn">
+                            open_in_new
+                        </span></a>
+                </li>
+                <li>
+                    <a href="#">윤리경영<span class="material-symbols-outlined opn">
+                            open_in_new
+                        </span></a>
+                </li>
+                <li>
+                    <a href="#">카탈로그</a>
+                </li>
+            </ul>
+            <div class="language">
+                <p class="not_js">
+                    <span class="material-symbols-outlined">
+                        language
+                    </span>
+                    Korean
+                </p>
+                <ul class="language_box">
+                    <li>
+                        <a href="dorco.html">
+                            <p>
+                                <img src="images/ko.svg" alt="한국국기" />Korean
+                            </p>
+                        </a>
+                    </li>
+                    <!-- 백그이 체크표시 넣기 백그컬 넣기 before 넣기-->
+                    <li>
+                        <a href="">
+                            <p>
+                                <img src="images/en.svg" alt="미국국기" />English
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="inquiries"><a href="#">문의하기</a></div>
+        </div>
+    </header>
+    <section>
+        <div class="black_box"></div>
+        <div class="faq_main">
+            <h1>고객 FAQ</h1>
+            <div class="input_box"></div>
+            <div class="tab_box">
+                <ul class="Purchase_inquiry inquiry">
+                    <li class="asd">
+                        <p class="tab_p on">구입문의</p>
+                    </li>
+                    <li class="dsa">
+                        <ul class="faq_acco">
+                            <li>
+                                <h2 class="acco_title"><span>구입문의</span>면도 제품의 구입 방법을 알려주세요.</h2>
+                                <p class="acco_txt">
+                                    <br>
+                                    저희 도루코리빙 제품에 관심을 가져 주셔서 감사합니다.<br><br>
+                                    아래의 온/오프라인 판매처에서 구매 가능하며, 판매처에 변동이 있을 수 있으니 정확한 확인이 필요하신 분들은 고객센터로 연락해 주시면 상세한 안내
+                                    도와드리겠습니다.<br><br>
+                                    ▷ 오프라인 판매처
+                                    대형 할인점(이마트, 롯데마트, 홈플러스), 편의점(CU, GS25, 이마트24, 세븐일레븐), 드럭스토어(올리브영), 다이소 등에서 구매하실 수
+                                    있습니다.
+                                    ▷ 온라인 판매처<br>
+                                    도루코리빙 공식몰 <a href="http://brand.naver.com/dorco">(http://brand.naver.com/dorco)</a>
+                                    에서
+                                    구매하실
+                                    수 있습니다.<br><br>
+                                </p>
+                            </li>
+                            <li>
+                                <h2 class="acco_title"><span>구입문의</span>주방용품 제품의 구입 방법을 알려주세요.</h2>
+                                <p class="acco_txt">
+                                    <br>
+                                    저희 도루코리빙 제품에 관심을 가져 주셔서 감사합니다.<br><br>
+                                    아래의 온/오프라인 판매처에서 구매 가능하며, 판매처에 변동이 있을 수 있으니 정확한 확인이 필요하신 분들은 고객센터로 연락해 주시면 상세한 안내
+                                    도와드리겠습니다.<br><br>
+                                    ▷ 오프라인 판매처
+                                    대형 할인점(이마트, 롯데마트, 홈플러스), 창고형 할인매장(이마트 트레이더스, 코스트코), 농협 등에서 구매하실 수 있습니다.<br>
+                                    ▷ 온라인 판매처
+                                    도루코리빙 공식몰 <a href="http://brand.naver.com/dorco">(http://brand.naver.com/dorco)</a>
+                                    에서 구매하실 수 있습니다.<br><br>
+                                </p>
+                            </li>
+                            <li>
+                                <h2 class="acco_title"><span>구입문의</span>문구류 제품의 구입 방법을 알려주세요.</h2>
+                                <p class="acco_txt">
+                                    <br>
+                                    저희 도루코리빙 제품에 관심을 가져 주셔서 감사합니다.<br><br>
+                                    아래의 온/오프라인 판매처에서 구매 가능하며, 판매처에 변동이 있을 수 있으니 정확한 확인이 필요하신 분들은 고객센터로 연락해 주시면 상세한 안내
+                                    도와드리겠습니다.<br><br>
+                                    ▷ 오프라인 판매처
+                                    대형 할인점(이마트, 롯데마트), 대형 문구점(오피스디포, 드림디포) 등에서 구매하실 수 있습니다.<br>
+                                    ▷ 온라인 판매처
+                                    도루코리빙 공식몰 <a href="http://brand.naver.com/dorco">(http://brand.naver.com/dorco)</a>
+                                    에서 구매하실 수 있습니다.<br><br>
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="Product_inquiry inquiry">
+                    <li class="asd">
+                        <p class="tab_p ">제품문의</p>
+                    </li>
+                    <li>
+                        <ul class="faq_acco">
+                            <li>
+                                <h2 class="acco_title"><span>제품문의</span>면도기/날 세척방법을 알 수 있을까요?</h2>
+                                <p class="acco_txt">
+                                    <br>
+                                    - 면도기 세척 방법<br><br>
+                                    면도 중 흐르는 물에 면도날을 대어 수염과 이물질이 빠질 수 있도록 자주 세척을 해주세요.<br>
+                                    지속적으로 세척해주면 면도기의 수명을 늘릴 수 있으며 오래 사용할 수 있습니다.<br>
+                                    단, 세면대에 면도기를 두드리는 행동은 삼가해 주세요.<br>
+                                    면도기 부품이 손상될 수 있습니다.<br>
+                                    - 면도날 세척 방법 <br><br>
+                                    면도날은 잔여물을 제거하고 완전히 말린 후에 사용해 주시는 것이 좋습니다.<br>
+                                    물기가 남아 있는 면도날은 녹이 생겨 안전하게 사용할 수 없으며 비위생적인 곰팡이가 발생할 수 있으니, 관리에 주의해 주세요.<br>
+                                </p>
+                            </li>
+                            <li>
+                                <h2 class="acco_title"><span>제품문의</span>주방용제품을 사용함에 있어서 주의할 사항이 있는지 알려주세요.</h2>
+                                <p class="acco_txt"><br>
+                                    날카로운 칼 제품이므로 품질보증서의 사용상 주의사항을 숙지하시어 사용, 보관, 취급시 주의하셔야하며 식기세척기 사용은 권장하지 않습니다.
+                                    <br>
+                                </p>
+                            </li>
+                            <li>
+                                <h2 class="acco_title"><span>제품문의</span>면도날 중 트리머날의 사용방법을 알려주세요.</h2>
+                                <p class="acco_txt">
+                                    <br>
+                                    트리머날이란 면도날 뒤쪽 상단에 정밀면도날을 의미하며, 구레나룻과 코밑수염을 편리하게 정리할 수 있습니다.
+                                    <br>
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_f_floor">
+            <div class="footer_box1">
+                <h1 class="footer_logo">
+                    <img src="images/logo_footer.svg" alt="도루코리빙" />
+                </h1>
+                <address>
+                    주소 : 서울특별시 서초구 효령로70길 36-9 (서초동) <br />
+                    Tel : 1533-5239 Fax : 02-2682-3211<br />
+                    E-mail : dorcocs@dorco.co.kr<br />
+                    사업자번호 : 130-86-17811 <br />
+                    대표이사 : 곽희석
+                </address>
+                <ul class="footer_a_box">
+                    <li><a href="#">지속가능경영</a></li>
+                    <li><a href="#">채용정보</a></li>
+                </ul>
+                <div class="site_site">
+                    <p>관련사이트<i class="fa-solid fa-angle-down"></i></p>
+                    <p class="click_site">도루코</p>
+                </div>
+            </div>
+            <ul class="footer_box2">
+                <li>
+                    <p>회사소개</p>
+                    <ul class="sub">
+                        <li><a href="#">인사말</a></li>
+                        <li><a href="#">미션</a></li>
+                        <li><a href="#">히스토리</a></li>
+                        <li><a href="#">CI&BI소개</a></li>
+                        <li><a href="#">조직도</a></li>
+                        <li><a href="#">인증서</a></li>
+                        <li><a href="#">찾아오시는길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>비즈니스</p>
+                    <ul class="sub">
+                        <li><a href="#">사업영역</a></li>
+                        <li><a href="#">해외법인</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>제품소개</p>
+                    <ul class="sub">
+                        <li><a href="#">면도기/날</a></li>
+                        <li><a href="#">면도보조용품</a></li>
+                        <li><a href="#">키친웨어</a></li>
+                        <li><a href="#">쿡웨어</a></li>
+                        <li><a href="#">키친툴</a></li>
+                        <li><a href="#">문구용품</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>홍보센터</p>
+                    <ul class="sub">
+                        <li><a href="#">보도자료</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">미디어</a></li>
+                        <li><a href="#">프로모션</a></li>
+                        <li><a href="#">신제품</a></li>
+                        <li><a href="#">수상내역</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>광고</p>
+                    <ul class="sub">
+                        <li><a href="#">홍보영상</a></li>
+                        <li><a href="#">광고영상</a></li>
+                        <li><a href="#">지면/옥외광고</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>고객센터</p>
+                    <ul class="sub">
+                        <li><a href="#">고객 FAQ</a></li>
+                        <li><a href="#">고객의 소리</a></li>
+                        <li><a href="#">구매/제휴문의</a></li>
+                        <li><a href="#">구매가이드</a></li>
+                        <li><a href="#">제품가이드</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_s_floor">
+            <div class="footer_s_floor_wrap">
+                <div class="sns_box">
+                    <p><a href="#">1111</a></p>
+                    <p><a href="#"></a></p>
+                    <p><a href="#"></a></p>
+                    <p><a href="#"></a></p>
+                </div>
+                <div class="copy_box">
+                    <p><a href="">개인정보처리방침</a></p>
+                    <p>Copyright©2023 Dorcoliving All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
