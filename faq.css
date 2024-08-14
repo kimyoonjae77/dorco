@@ -244,6 +244,23 @@ header .inquiries {
 }
 
 /* section--------------------------------------- */
+#top_btn {
+    width: 50px;
+    height: 50px;
+    background-color: darkviolet;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    right: 1%;
+    bottom: 5%;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    /* display: none; */
+}
+
+/* section */
 
 section {
     /* height: 1200px; */
@@ -393,7 +410,9 @@ footer .footer_f_floor .site_site p:nth-child(1) {
     border-radius: 5px;
     padding-left: 20px;
     position: relative;
+    cursor: pointer;
 }
+
 
 footer .footer_f_floor .site_site p:nth-child(1)>i {
     position: absolute;
@@ -414,6 +433,12 @@ footer .footer_f_floor .site_site p:nth-child(2) {
     left: 0;
     top: -60px;
     padding-left: 20px;
+    display: none;
+}
+
+footer .footer_f_floor .site_site p:nth-child(2)>a {
+    color: white;
+    display: block;
 }
 
 footer .footer_f_floor .footer_box2 {
