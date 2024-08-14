@@ -1017,6 +1017,10 @@ footer .footer_f_floor .site_site p:nth-child(2) {
     display: none;
 }
 
+footer .footer_f_floor .site_site p:nth-child(2)>a {
+    color: white;
+}
+
 footer .footer_f_floor .footer_box2 {
     display: flex;
     margin-left: 100px;
