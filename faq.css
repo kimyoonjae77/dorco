@@ -57,6 +57,7 @@ header .logo {
     height: 40px;
     margin: 25px;
     line-height: 40px;
+    cursor: pointer;
 }
 
 header .logo a {}
@@ -347,6 +348,10 @@ footer {
     height: 550px;
     background-color: #231f20;
     color: #ffffffb3;
+}
+
+footer .footer_logo {
+    cursor: pointer;
 }
 
 footer .footer_f_floor {
